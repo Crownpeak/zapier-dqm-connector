@@ -1,0 +1,25 @@
+{
+  "name": "zapier-dqm-connector",
+  "version": "1.0.0",
+  "description": "Zapier integration for Crownpeak DQM CMS API",
+  "keywords": [
+    "zapier",
+    "zap",
+    "crownpeak",
+    "dqm"
+  ],
+  "author": "Crownpeak Technology, Inc.",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --testTimeout 10000"
+  },
+  "dependencies": {
+    "zapier-platform-core": "17.7.0"
+  },
+  "devDependencies": {
+    "jest": "^29.6.0",
+    "nock": "^14.0.10"
+  },
+  "private": true,
+  "main": "index.js"
+}
