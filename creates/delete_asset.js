@@ -18,7 +18,7 @@ const perform = async (z, bundle) => {
 };
 
 module.exports = {
-  key: 'delete_asset',
+  key: 'deleteAsset',
   noun: 'Asset',
 
   display: {

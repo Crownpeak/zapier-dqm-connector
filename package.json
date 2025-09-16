@@ -11,14 +11,17 @@
   "author": "Crownpeak Technology, Inc.",
   "license": "MIT",
   "scripts": {
-    "test": "jest --testTimeout 10000"
+    "test": "jest --testTimeout 10000",
+    "test:watch": "jest --testTimeout 10000 --watch",
+    "validate": "zapier validate",
+    "build": "zapier build"
   },
   "dependencies": {
     "zapier-platform-core": "17.7.0"
   },
   "devDependencies": {
     "jest": "^29.6.0",
-    "nock": "^14.0.10"
+    "nock": "^13.5.6"
   },
   "private": true,
   "main": "index.js"

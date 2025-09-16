@@ -3,11 +3,7 @@ const perform = async (z, bundle) => {
   const checkpointId = bundle.inputData.checkpointId;
 
   if (!checkpointId) {
-    throw new z.errors.Error(
-        'Checkpoint ID is required',
-        'MissingCheckpointId',
-        400
-    );
+    throw new z.errors.Error('Checkpoint ID is required', 'MissingCheckpointId');
   }
 
   const params = new URLSearchParams({ apiKey });

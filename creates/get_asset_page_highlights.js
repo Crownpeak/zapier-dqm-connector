@@ -20,7 +20,7 @@ const perform = async (z, bundle) => {
 };
 
 module.exports = {
-  key: 'get_asset_page_highlights',
+  key: 'getAssetPageHighlights',
   noun: 'Asset',
   display: {
     label: 'Get asset content with page highlights',

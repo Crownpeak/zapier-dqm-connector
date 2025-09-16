@@ -23,7 +23,7 @@ const perform = async (z, bundle) => {
 };
 
 module.exports = {
-  key: 'get_asset_errors_by_checkpoint',
+  key: 'getAssetErrorsByCheckpoint',
   noun: 'Asset',
 
   display: {

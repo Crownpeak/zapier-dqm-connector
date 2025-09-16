@@ -25,7 +25,7 @@ const perform = async (z, bundle) => {
 };
 
 module.exports = {
-  key: 'update_asset',
+  key: 'updateAsset',
   noun: 'Asset',
   display: {
     label: 'Update an existing content asset',

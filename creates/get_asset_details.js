@@ -20,7 +20,7 @@ const perform = async (z, bundle) => {
 };
 
 module.exports = {
-  key: 'get_asset_details',
+  key: 'getAssetDetails',
   noun: 'Asset',
 
   display: {

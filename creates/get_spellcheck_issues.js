@@ -19,7 +19,7 @@ const perform = async (z, bundle) => {
 };
 
 module.exports = {
-  key: 'get_spellcheck_issues',
+  key: 'getSpellcheckIssues',
   noun: 'Asset',
   display: {
     label: 'Get spellcheck results for an asset',
