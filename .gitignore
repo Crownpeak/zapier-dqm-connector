@@ -88,3 +88,7 @@ public/feed.xml
 public/robots.txt
 public/sitemap-0.xml
 public/sitemap.xml
+
+# Zapier
+.zapierapprc
+build
